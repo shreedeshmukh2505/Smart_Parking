@@ -1,0 +1,60 @@
+/* (A) ENTIRE PAGE */
+* {
+  margin:20px 0px 0px 0px;
+  padding: 20px 0px 2px 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background:#23242a;
+}
+
+/* (B) SEATS LAYOUT */
+#layout {
+  max-width: 650px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 0px;
+}
+.seat {
+  text-align: center;
+  padding: 20px 0;
+  background: #4fed54;
+}
+#layout .seat {
+  cursor: pointer;
+}
+.taken {
+  color: #a9a9a9;
+  background: #f53838 !important;
+}
+.selected {
+  background: #858378 !important;
+}
+
+/* (C) LEGEND */
+#legend {
+  padding:0px;
+  margin:0px;
+  display:grid;
+  grid-template-columns: 100px 200px;
+  margin-bottom:0px;
+}
+#legend div {
+  padding: 10px;
+}
+
+/* (D) "CHECKOUT" */
+#go {
+  margin-top:0.01em;
+  border: 0;
+  padding: 20px;
+  font-weight: 700;
+  color: #fff;
+  background: #de4343;
+  cursor: pointer;
+}
+@media only screen and(max-width:1323px){
+  *{
+    padding: 20px 0px px 200px;
+  }
+}

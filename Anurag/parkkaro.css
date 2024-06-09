@@ -1,0 +1,45 @@
+.parkbutton
+{
+    background-color: green;
+    font-size: xx-large;
+    width: 100px;
+    display : inline-block
+} 
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* h2,h3{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    margin:0px;
+    padding: 0px;} */
+
+.bg{
+padding:0px;
+margin:0px;
+width: 100%;
+z-index: -1;
+position: absolute;
+    opacity:100%;
+}
+.btn{
+    text-align: center;
+}
+span{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin:100px;
+    padding:100px;
+}
+.container
+{
+    max-width: 80%;
+    padding: 34px;
+    background-color: rgb(126, 88, 161);
+    margin: auto;
+}

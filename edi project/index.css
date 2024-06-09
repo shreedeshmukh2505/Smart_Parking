@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Sofia+Sans:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    background:#23242a;
+}
+.container{
+    width: 100%;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+font-size: 55px;
+font-family: 'Playfair Display', serif;
+margin-bottom: 25px;
+    color:#45f3ff;
+    margin-bottom:35px;
+}
+.container img{
+    height: 25%;
+    width: 25%;
+}
+.container button{
+    margin-top:20px;
+    padding:8px;
+    border-radius:3px;
+    color:#45f3ff;
+    background:#2c2f3e;
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+}
